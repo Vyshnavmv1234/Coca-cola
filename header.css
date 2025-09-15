@@ -1,0 +1,28 @@
+.header{
+  
+  display: flex;
+  align-items: center;
+  flex-direction:row;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  background-color: white;
+  
+
+}
+.coca-img{
+  padding-left:100px;
+  flex-shrink: 0;
+}
+.icons{
+  width: 50%; height:50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-shrink: 0;
+}
+.icons span{
+  flex-shrink:0;
+  font-weight: bold;
+}
+
